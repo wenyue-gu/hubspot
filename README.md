@@ -15,7 +15,7 @@ The date you send in for the country should be the starting date of the two day 
 ## API Docs and Example
 To get the list of partners, send an HTTP GET to:
 
-```https://candidate.hubteam.com/candidateTest/v3/problem/dataset?userKey=a5d99c16e745ba5bb064fef31c8c```
+```https://candidate.hubteam.com/candidateTest/v3/problem/dataset?userKey=//```
 
 Here’s a sample response with 10 partners:
 ```
@@ -140,7 +140,7 @@ Here’s a sample response with 10 partners:
           
 POST a JSON body to:
 
-```https://candidate.hubteam.com/candidateTest/v3/problem/result?userKey=a5d99c16e745ba5bb064fef31c8c```
+```https://candidate.hubteam.com/candidateTest/v3/problem/result?userKey=//```
 
 For the list of partners above, the proper API response to send would look like this:
 ```
